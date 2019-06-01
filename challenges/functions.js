@@ -45,6 +45,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: 
 
+// 
 
 const external = "I'm outside the function";
 
