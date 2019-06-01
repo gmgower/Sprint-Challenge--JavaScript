@@ -45,7 +45,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: 
 
-// 
+// When a function is declared with  an assigned variable it stores its definition and  a closure.  The clorsure stores all of the variables in at the time of the function creation,  and acts like a backpack to allow the nested function to access variables outward of the inheritance chain. 
 
 const external = "I'm outside the function";
 
