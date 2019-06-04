@@ -73,13 +73,16 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array.  
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = [];
-graduates.map( (item) => {
-  let university = item.university;
-  universities.push(university);
-  return universities.sort()
-})
-console.log(universities)
+const universities = graduates.map(item => item.university)
+console.log(universities.sort())
+
+// const universities = [];
+// graduates.map( (item) => {
+//   let university = item.university;
+//   universities.push(university);
+//   return universities.sort()
+// })
+// console.log(universities)
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
 The resulting contact information should have a space between the first name and the email information like this: 
